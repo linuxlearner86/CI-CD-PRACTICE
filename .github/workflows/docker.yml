@@ -27,5 +27,5 @@ jobs:
 
     - name:  Push image to Docker Hub
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/my-python-app
+        docker push ${{ secrets.DOCKER_USERNAME }}/my-python-app .
 
